@@ -22,36 +22,6 @@ It allows:
 
 ---
 
-## 🗂️ Project Structure (just to get an idea)
-
-restaurant-ordering-system3120/
-│
-├── backend/ # Node.js + Express backend
-│ ├── src/
-│ │ ├── controllers/ # API logic (CRUD)
-│ │ ├── models/ # MongoDB schemas
-│ │ ├── routes/ # Express routes
-│ │ ├── middleware/ # Auth, error handling, etc.
-│ │ ├── config/ # DB connections, environment configs
-│ │ └── server.js # Entry point for backend
-│ └── package.json # Backend dependencies & scripts
-│
-├── frontend/ # React frontend
-│ ├── src/
-│ │ ├── components/ # Reusable UI components
-│ │ ├── pages/ # Pages like Menu, Orders, Admin
-│ │ ├── context/ # React context providers
-│ │ └── hooks/ # Custom React hooks
-│ └── package.json # Frontend dependencies & scripts
-│
-├── .github/
-│ └── workflows/ # CI/CD GitHub Actions configs
-├── README.md # Project instructions
-└── .gitignore
-
-
----
-
 ## 🚀 Getting Started (General Instructions)
 
 These instructions work **on Windows, Mac, or Linux**.
